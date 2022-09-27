@@ -11,13 +11,11 @@ body {
     align-items: center;
     background-color: #1F2937;
 }
-
 .logo {
     width: 50px;
     height: 50px;
     padding: 10px;
 }
-
 .links-up a {
     margin: 20px;
     font-size: 18px;
@@ -26,7 +24,36 @@ body {
 }
 
 .up-container2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
     background-color: #1F2937;
+    color: #E5E7EB;
+}
+.registro {
+    display: flex;
+    flex-direction: column;
+}
+.up-container2 h1 {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: bolder;
+    margin-bottom: 0;
+}
+.up-container2 p {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 18px;
+}
+.up-container2 button {
+    font-size: 14px;
+    width: 120px;
+    padding: 10px;
+    background-color: #3882F6;
+}
+.img-pelicula {
+    width: 500px;
+    height: 245.16px;
 }
 
 .footer {
