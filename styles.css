@@ -106,9 +106,39 @@ body {
     color: #1F2937;
     background-color: #E5E7EB;
     padding: 20px;
+    font-family: light Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
-
 .nota {
     text-align:right;
     color: black;
+}
+
+.publicidad {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #F9FAF8;
+    padding: 80px;
+
+}
+.contenedor2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #3882F6;
+    flex-direction: row;
+    padding: 20px;
+    border-radius: 3%;
+    width: 1000px;
+    height: 90px;
+}
+.texto3 {
+    margin: 50px;
+}
+.btn {
+    padding: 10px;
+    border-radius: 10%;
+    border: 5px solid #F9FAF8;
+    background-color: #3882F6;
+    color: #F9FAF8;
 }
